@@ -1,6 +1,6 @@
 #  IntoTheWild - Automating with Geofences
 
-Chapter 3 of Build Location-Based Projects for iOS
+### Chapter 3 of Build Location-Based Projects for iOS
 
 In this chapter we will use such a “magic” trigger to execute our code. We will
 build an app that measures how long the users are outside each day without
@@ -19,3 +19,7 @@ before it is terminated again.
 This project uses the LogStore package covered in the appendix of this book.
 An improved version is used in this project available at [LogStore](https://github.com/sargapman/LogStore)
 
+### How to use this app
+
+This app initially presents a simple UI with a single button: Set Home.  Tapping this button sets the current location as Home.
+The app then sets up a geofence region centered on that location with a radius of 10 meters.  The app records every exit and re-entry of the iPhone to that geofenced area.  At the end of every day it calculates the total time outside of the geofenced area and presents that in a bar chart that includes the last 7 days of activity.
