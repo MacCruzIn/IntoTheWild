@@ -40,6 +40,7 @@
 		F17EC68024BBC9A100977891 /* DayEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEntry.swift; sourceTree = "<group>"; };
 		F17EC68224BBCA0700977891 /* DayEntriesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEntriesCalculator.swift; sourceTree = "<group>"; };
 		F17EC68424BBD51F00977891 /* DayEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEntryView.swift; sourceTree = "<group>"; };
+		F1818BF324C755DF009F3E41 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				F17EC67424BBB85200977891 /* README.md */,
+				F1818BF324C755DF009F3E41 /* TODO.md */,
 				F17EC65F24BBB82E00977891 /* IntoTheWild */,
 				F17EC65E24BBB82E00977891 /* Products */,
 			);
